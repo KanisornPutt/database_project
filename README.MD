@@ -24,4 +24,4 @@
 
 
 ## ER DIAGRAM
-![ER DIAGRAM](https://cdn.discordapp.com/attachments/1270213766860115986/1307032227607216158/ER_Diagram_pgAdmin.png?ex=67397cde&is=67382b5e&hm=578148cafa72a88def0d31f4d166ec4388673a9f7a978c411e8863f2b9b59a7c&)
+![ER DIAGRAM](https://cdn.discordapp.com/attachments/689374296040407040/1307370253042454548/Untitled.png?ex=673a0eee&is=6738bd6e&hm=dd90fc485f3930e60b04f6e60d01136033ddebdfd7502bfd087bff5a87a03a67&)
