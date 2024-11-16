@@ -1,0 +1,27 @@
+\copy users FROM '/home/data/users.csv' DELIMITER ',' CSV; 
+
+\copy seller FROM '/home/data/seller.csv' DELIMITER ',' CSV; 
+
+\copy seller_verification_docs FROM '/home/data/seller_verification_docs.csv' DELIMITER ',' CSV; 
+
+\copy collection FROM '/home/data/collection.csv' DELIMITER ',' CSV; 
+
+\copy orders FROM '/home/data/orders.csv' DELIMITER ',' CSV; 
+
+\copy product FROM '/home/data/product.csv' DELIMITER ',' CSV; 
+
+\copy review FROM '/home/data/review.csv' DELIMITER ',' CSV; 
+
+\copy comment FROM '/home/data/comment.csv' DELIMITER ',' CSV; 
+
+\copy chat_with FROM '/home/data/chat_with.csv' DELIMITER ',' CSV; 
+
+\copy message FROM '/home/data/message.csv' DELIMITER ',' CSV; 
+
+\copy admin FROM '/home/data/admin.csv' DELIMITER ',' CSV; 
+
+\copy report FROM '/home/data/report.csv' DELIMITER ',' CSV; 
+
+\copy product_photos FROM '/home/data/product_photos.csv' DELIMITER ',' CSV; 
+
+\copy product_tags FROM '/home/data/product_tags.csv' DELIMITER ',' CSV; 
