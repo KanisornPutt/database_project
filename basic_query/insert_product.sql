@@ -1,3 +1,8 @@
+SELECT
+	*
+FROM
+	PRODUCT;
+
 INSERT INTO
 	PRODUCT (
 		PRODUCT_ID,
@@ -11,12 +16,12 @@ INSERT INTO
 	)
 VALUES
 	(
-		{{product_id}},
-		{{seller_id}},
-		{{product_name}},
-		{{product_price}},
-		{{product_description}},
+		1,
+		1,
+		'New Product',
+		500.50,
+		'For testing',
 		FALSE,
-		{{collection_id}},
-		null
+		10,
+		NULL
 	);

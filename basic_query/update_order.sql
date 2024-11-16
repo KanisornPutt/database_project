@@ -3,7 +3,7 @@ SET
 	TRANSACTION_STATUS = 'Complete',
 	ORDER_STATUS = 'Packing'
 WHERE
-	ORDER_ID = {{order_id}}
+	ORDER_ID = 18
 
 	
 SELECT

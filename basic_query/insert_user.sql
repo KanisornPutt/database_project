@@ -13,8 +13,8 @@ INSERT INTO
 	)
 VALUES
 	(
-		22,
-		'Lebron',
+		2,
+		'LeBron',
 		'James',
 		'M',
 		'Manatchaya.J@gmail.com',
