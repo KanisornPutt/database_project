@@ -1,0 +1,76 @@
+{
+    "title": "Product",
+    "required": [
+        "_id", "product_id", "seller_id", "product_name",
+        "price", "description", "is_bought"
+    ],
+    "properties": {
+        "_id": { "bsonType": "objectId" },
+        "product_id": { "bsonType": "string", "description": "Unique Product ID (UUID)" },
+        "seller_id": { "bsonType": "string", "description": "Seller's ID (UUID)" },
+       
+        "product_name": {
+            "bsonType": "string",
+            "maxLength": 100,
+            "description": "Name of the product"
+        },
+       
+        "price": {
+            "bsonType": "decimal",
+            "minimum": 0.00,
+            "maximum": 9999999.99,
+            "description": "Product price between 0.00 and 9,999,999.99"
+        },
+ 
+ 
+        "description": {
+            "bsonType": "string",
+            "maxLength": 300,
+            "description": "Brief description of the product"
+        },
+       
+        "is_bought": {
+            "bsonType": "bool",
+            "description": "Boolean flag indicating if the product has been bought"
+        },
+ 
+ 
+ 
+ 
+ 
+ 
+        "collection_id": {
+            "bsonType": ["string", "null"],
+            "description": "Collection ID (UUID), nullable"
+        },
+       
+        "order_id": {
+            "bsonType": ["string", "null"],
+            "description": "Order ID (UUID), nullable"
+        },
+ 
+ 
+        "photos": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string",
+                "description": "URLs for product photos",
+                "maxLength": 2048,
+                "pattern": "^https?:\\/\\/.+"
+            },
+            "description": "List of product picture URLs"
+        },
+ 
+ 
+        "tags": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string",
+                "maxLength": 100,
+                "description": "Product categories/tags"
+            },
+            "description": "List of product tags"
+        }
+    }
+ }
+ 

@@ -1,0 +1,4 @@
+message_id,buyer_id,seller_id,message_content,is_read,message_date_time
+1,2,7,"น้อง DIMOO สภาพ 100%ไหมคะ",TRUE,"2024-01-01T02:02:00Z"
+2,16,19,"ตัวเองน่ารักจังเลย นัดไปกินกาแฟกันได้ไหมครับ",TRUE,"2024-01-11T02:02:00Z"
+3,2,7,"ใช่ครับ",TRUE,"2024-01-04T02:02:00Z"

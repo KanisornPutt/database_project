@@ -1,0 +1,45 @@
+mongoimport --db=data --collection=users --type=csv \
+  --columnsHaveTypes \
+  --fields="user_id.int32(),user_name.string(),user_sname.string(),gender.string(),user_email.string(),Province.string(),District.string(),Postal_code.string(),user_tel.string(),seller_flag.boolean()" \
+  --file=/data/users.csv
+
+  mongoimport --db=data --collection=seller --type=csv \
+  --columnsHaveTypes \
+  --fields="seller_id.int32(),verified_status.boolean()" \
+  --file=/data/seller.csv
+
+  mongoimport --db=data --collection=seller_verification_docs --type=csv \
+  --columnsHaveTypes \
+  --fields="id_number.int32(),seller_id.int32(),bank_name.string(),branch.string(),account_number.string(),term_acception.boolean(),tax_address.string()" \
+  --file=/data/seller_verification_docs.csv
+
+ 
+
+  mongoimport --db=data --collection=collection --type=csv \
+  --columnsHaveTypes \
+  --fields="collection_id.int32(),detail.string(),artist.string(),collection_name.string()" \
+  --file=/data/collection.csv
+
+  
+
+
+  mongoimport --db=data --collection=admin --type=csv \
+  --columnsHaveTypes \
+  --fields="admin_id.int32(),email.string()" \
+  --file=/data/admin.csv
+
+
+  mongoimport --db=data --collection=product_photos --type=csv \
+  --columnsHaveTypes \
+  --fields="product_id.int32(),photo.string()" \
+  --file=/data/product_photos.csv
+
+  mongoimport --db=data --collection=product_tags --type=csv \
+  --columnsHaveTypes \
+  --fields="product_id.int32(),tag.string()" \
+  --file=/data/product_tags.csv
+
+  mongoimport --db=data --collection=chat_with --type=csv \
+  --columnsHaveTypes \
+  --fields="buyer_id.int32(),seller_id.int32()" \
+  --file=/data/chat_with.csv
